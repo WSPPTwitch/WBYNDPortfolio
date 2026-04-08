@@ -69,6 +69,26 @@ const videos = [
         youtubeId: "FIcmMqB2K2U",
         title: "Beyond Sandbox Release Date CONFIRMED!!!",
         category: "short"
+    },
+    {
+        youtubeId: "ynJ04rRKwxc",
+        title: "It's Like a Playable Animated Movie!",
+        category: "short"
+    },
+    {
+        youtubeId: "azxj6bG013c",
+        title: "Minecraft's Top 5 Rarest Blocks",
+        category: "short"
+    },
+    {
+        youtubeId: "MSk_9_2K3S4",
+        title: "Minecraft Beginner Tips And Tricks!",
+        category: "short"
+    },
+    {
+        youtubeId: "3UHqjLsAn7s",
+        title: "How To Do The Launch Glitch In Skate 4",
+        category: "short"
     }
 ];
 
