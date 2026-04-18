@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WillyBeyond · Gaming Editor</title>
+    <title>WillyBeyond · Gaming Editor & Tester</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -29,15 +29,34 @@
         </div>
     </section>
 
+    <!-- Main tabs -->
+    <div class="main-tabs">
+        <button class="main-tab active" data-tab="editing">Video Editing</button>
+        <button class="main-tab" data-tab="testing">Game Testing</button>
+    </div>
+
     <main class="container">
-        <div class="filter-bar">
-            <button class="filter-btn active" data-filter="all">All</button>
-            <button class="filter-btn" data-filter="long">Long‑form</button>
-            <button class="filter-btn" data-filter="short">Shorts</button>
+        <!-- Video Editing Section -->
+        <div id="editing-section" class="tab-section active">
+            <div class="filter-bar">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="long">Long‑form</button>
+                <button class="filter-btn" data-filter="short">Shorts</button>
+            </div>
+            <div id="video-grid" class="video-grid">
+                <!-- video cards load here -->
+            </div>
         </div>
 
-        <div id="video-grid" class="video-grid">
-            <!-- video cards load here -->
+        <!-- Game Testing Section -->
+        <div id="testing-section" class="tab-section">
+            <div class="testing-header">
+                <h2>Games I've playtested</h2>
+                <p class="testing-sub">Bug hunting · Feedback · QA</p>
+            </div>
+            <div id="game-grid" class="game-grid">
+                <!-- game cards load here -->
+            </div>
         </div>
     </main>
 
